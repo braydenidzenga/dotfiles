@@ -17,6 +17,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'github/copilot.vim'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
+Plug 'tomasiser/vim-code-dark'
 call plug#end()
 
 
@@ -55,4 +56,4 @@ nmap <leader>do <Plug>(coc-codeaction)
 
 nmap <leader>rn <Plug>(coc-rename)
 
-colorscheme catppuccin-mocha
+colorscheme codedark
