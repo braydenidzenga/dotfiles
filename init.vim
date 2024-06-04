@@ -16,8 +16,17 @@ Plug 'preservim/nerdtree'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'github/copilot.vim'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 Plug 'tomasiser/vim-code-dark'
+Plug 'Exafunction/codeium.vim'
+Plug 'ryanoasis/vim-devicons'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-fugitive'
+Plug 'vim-airline/vim-airline'
+Plug 'jiangmiao/auto-pairs'
+Plug 'preservim/nerdcommenter'
+Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
+Plug 'jacoborus/tender.vim'
 call plug#end()
 
 
@@ -56,4 +65,4 @@ nmap <leader>do <Plug>(coc-codeaction)
 
 nmap <leader>rn <Plug>(coc-rename)
 
-colorscheme codedark
+colorscheme tender
